@@ -15,16 +15,30 @@ public class MockLocationProvider : LocationProviderBase
     public override double Latitude => lat;
     public override double Longitude => lon;
     public override float Accuracy => accuracy;
+    public override string Status => "buttons";
 
     public override IEnumerator Init()
+    {
+        if (!ready) ResetToStart();
+        yield break;
+    }
+
+    public void ResetToStart()
     {
         lat = startLatitude;
         lon = startLongitude;
         ready = true;
-        yield break;
     }
 
-    // Сдвиг «пользователя» в метрах: north > 0 — на север, east > 0 — на восток
+    // Поставить «пользователя» в заданную точку (например, последнюю позицию GPS)
+    public void SetPosition(double newLat, double newLon)
+    {
+        lat = newLat;
+        lon = newLon;
+        ready = true;
+    }
+
+    // Сдвиг в метрах: north > 0 — на север, east > 0 — на восток
     public void MoveMeters(double north, double east)
     {
         const double metersPerDegLat = 111194.9;

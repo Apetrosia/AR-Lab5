@@ -26,6 +26,7 @@ extern void Touch_get_radiusVariance_m6F54BE964B91C3B2F8FA2A483E1FDB644B282B21 (
 extern void LocationInfo_get_latitude_mAF0A46443555AF18EA3C516292CB92B1669CA863 (void);
 extern void LocationInfo_get_longitude_mCB720DD0E139B7C614F78D40595E1BBF1F5433A2 (void);
 extern void LocationInfo_get_horizontalAccuracy_m3178154DD5F4F72B8743665F33CCAE5BEC6296F4 (void);
+extern void LocationInfo_get_timestamp_mAD1095E60A61DF0FA66195AA06A0F801CF9BDC9F (void);
 extern void LocationService_IsServiceEnabledByUser_m88DF3FEBB0B816F0D90E4972630D95714E5DDEDF (void);
 extern void LocationService_GetLocationStatus_m1BE18671C8A455141C877979259EB9BA546A9103 (void);
 extern void LocationService_GetLastLocation_m50BFC921ADF32DD69D00937B44131B0770D4F662 (void);
@@ -85,7 +86,7 @@ extern void InputUnsafeUtility_GetButtonDown__Unmanaged_m411E8743768382A33B3778E
 extern void InputUnsafeUtility_GetButtonUp__Unmanaged_mCCE34158CE05432541102B1C2AEC6545E25D0732 (void);
 extern void InputUnsafeUtility_GetAxisRaw_Injected_mBD4731C071FA30196CF204D111EE877EAB68F258 (void);
 extern void InputUnsafeUtility_GetButtonDown_Injected_m006E1D23C7C2C482AACE1323AF4AE0F200C55B93 (void);
-static Il2CppMethodPointer s_methodPointers[78] = 
+static Il2CppMethodPointer s_methodPointers[79] = 
 {
 	EmbeddedAttribute__ctor_mD186A3EECAEA1F33E2DF7020B8BB5B7498869351,
 	RefSafetyRulesAttribute__ctor_m151599E27DEEB22884EC61292629B3F3A766EBD1,
@@ -106,6 +107,7 @@ static Il2CppMethodPointer s_methodPointers[78] =
 	LocationInfo_get_latitude_mAF0A46443555AF18EA3C516292CB92B1669CA863,
 	LocationInfo_get_longitude_mCB720DD0E139B7C614F78D40595E1BBF1F5433A2,
 	LocationInfo_get_horizontalAccuracy_m3178154DD5F4F72B8743665F33CCAE5BEC6296F4,
+	LocationInfo_get_timestamp_mAD1095E60A61DF0FA66195AA06A0F801CF9BDC9F,
 	LocationService_IsServiceEnabledByUser_m88DF3FEBB0B816F0D90E4972630D95714E5DDEDF,
 	LocationService_GetLocationStatus_m1BE18671C8A455141C877979259EB9BA546A9103,
 	LocationService_GetLastLocation_m50BFC921ADF32DD69D00937B44131B0770D4F662,
@@ -170,7 +172,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_InputLegacyModule_CodeGe
 const Il2CppCodeGenModule g_UnityEngine_InputLegacyModule_CodeGenModule = 
 {
 	"UnityEngine.InputLegacyModule.dll",
-	78,
+	79,
 	s_methodPointers,
 	0,
 	NULL,

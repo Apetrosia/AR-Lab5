@@ -533,7 +533,6 @@ extern void PermissionCallbacks_Invoke_m854C0748805F945A4A16C0C8403AAB10B844D7A8
 extern void PermissionCallbacks_onPermissionResult_m2AD8CAA2CAA8BD91CEAA55F2F4B142FDB755FCBC (void);
 extern void Permission_GetUnityPermissions_m6A22A923A8B036209E6218E24F7AA8CA79AA15BD (void);
 extern void Permission_HasUserAuthorizedPermission_mF4C90E13124E28F6F672200E489CC25A9B645B8B (void);
-extern void Permission_RequestUserPermission_mF9CF3A21AAF34B311137C4D00B3AD6A6C2694242 (void);
 extern void Permission_RequestUserPermissions_m09FE74BF5829C8B48A0E6C9B7F7846FEE763D2DA (void);
 extern void AndroidWindowInsets_SetNativeHandle_m1941ABFCC877F9D6921BE5BDF75E1CBB7DDF4B03 (void);
 extern void AndroidWindowInsets_GetSupportedInsets_m17AA7A2C128D630FE14D63B362FF0B700D9D5E3A (void);
@@ -570,7 +569,7 @@ extern void AndroidConfiguration_get_screenLayoutSize_mA18253406CBD702D355073E0F
 extern void AndroidConfiguration_get_uiModeNight_m3561F470AF4D4BC9AFC6583DE93F861CF8FFEFEC (void);
 extern void AndroidConfiguration_get_uiModeType_mCC57F1E35C09495E9A3FD7CBD57778131E4A4D8E (void);
 extern void AndroidConfiguration_ToString_mFCA4EDDA524358A9BD9D83833DD2A0124DEADB45 (void);
-static Il2CppMethodPointer s_methodPointers[607] = 
+static Il2CppMethodPointer s_methodPointers[606] = 
 {
 	EmbeddedAttribute__ctor_m20ED66A3E4BEE3918E730334B661B56A5E6D03DF,
 	RefSafetyRulesAttribute__ctor_m49A7DA06F9FE5D04F6097A507EF4DF1E009BBD29,
@@ -1142,7 +1141,6 @@ static Il2CppMethodPointer s_methodPointers[607] =
 	PermissionCallbacks_onPermissionResult_m2AD8CAA2CAA8BD91CEAA55F2F4B142FDB755FCBC,
 	Permission_GetUnityPermissions_m6A22A923A8B036209E6218E24F7AA8CA79AA15BD,
 	Permission_HasUserAuthorizedPermission_mF4C90E13124E28F6F672200E489CC25A9B645B8B,
-	Permission_RequestUserPermission_mF9CF3A21AAF34B311137C4D00B3AD6A6C2694242,
 	Permission_RequestUserPermissions_m09FE74BF5829C8B48A0E6C9B7F7846FEE763D2DA,
 	AndroidWindowInsets_SetNativeHandle_m1941ABFCC877F9D6921BE5BDF75E1CBB7DDF4B03,
 	AndroidWindowInsets_GetSupportedInsets_m17AA7A2C128D630FE14D63B362FF0B700D9D5E3A,
@@ -1191,7 +1189,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_AndroidJNIModule_CodeGen
 const Il2CppCodeGenModule g_UnityEngine_AndroidJNIModule_CodeGenModule = 
 {
 	"UnityEngine.AndroidJNIModule.dll",
-	607,
+	606,
 	s_methodPointers,
 	2,
 	s_adjustorThunks,

@@ -8,4 +8,5 @@ public abstract class LocationProviderBase : MonoBehaviour
     public abstract double Longitude { get; }
     public abstract float Accuracy { get; }   // горизонтальная точность, м
     public abstract IEnumerator Init();
+    public virtual string Status => string.Empty;
 }

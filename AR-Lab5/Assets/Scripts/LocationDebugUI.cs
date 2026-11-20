@@ -18,6 +18,8 @@ public class LocationDebugUI : MonoBehaviour
     [SerializeField] private TMP_Text logText;
 
     [Header("Buttons")]
+    [SerializeField] private Button sourceToggleButton;
+    [SerializeField] private TMP_Text sourceToggleLabel;
     [SerializeField] private Button addPoiButton;
     [SerializeField] private Button clearButton;
     [SerializeField] private GameObject mockControls;
@@ -31,6 +33,7 @@ public class LocationDebugUI : MonoBehaviour
 
     private void Awake()
     {
+        sourceToggleButton.onClick.AddListener(locationManager.ToggleMockMode);
         addPoiButton.onClick.AddListener(() => locationManager.AddPoiHere());
         clearButton.onClick.AddListener(() => locationManager.ClearAll());
         northButton.onClick.AddListener(() => mock.MoveMeters(mockStepMeters, 0));
@@ -76,9 +79,13 @@ public class LocationDebugUI : MonoBehaviour
 
     private void Update()
     {
+        sourceToggleLabel.text = locationManager.IsMock ? "Use GPS" : "Use buttons";
+        bool wantMock = mock != null && locationManager.IsMock;
+        if (mockControls.activeSelf != wantMock) mockControls.SetActive(wantMock);
         var m = locationManager;
         var sb = new StringBuilder();
         sb.AppendLine($"Ready: {m.IsReady}");
+        sb.AppendLine("Source: " + m.SourceInfo);
         sb.AppendLine($"Lat: {m.CurrentLat.ToString("F6", Inv)}");
         sb.AppendLine($"Lon: {m.CurrentLon.ToString("F6", Inv)}");
         sb.AppendLine($"Accuracy: {m.Accuracy.ToString("F1", Inv)} m");

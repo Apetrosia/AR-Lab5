@@ -6,16 +6,18 @@ using UnityEngine;
 public class LocationManager : MonoBehaviour
 {
     [Header("Источники координат")]
-    [SerializeField] private LocationProviderBase editorProvider; // в редакторе
-    [SerializeField] private LocationProviderBase deviceProvider; // на телефоне
+    [SerializeField] private LocationProviderBase editorProvider; // кнопки (эмуляция)
+    [SerializeField] private LocationProviderBase deviceProvider; // GPS
+    [SerializeField] private bool useMockProvider = false;        // стартовать сразу в режиме кнопок
+    [SerializeField] private bool fallbackToMock = true;          // если GPS не запустился, переходим на кнопки
 
     [Header("Настройки")]
-    [SerializeField] private float updateInterval = 0.5f;     // период опроса, с
-    [SerializeField] private float visibilityRadius = 200f;   // радиус видимости, м
-    [SerializeField] private int nearestCount = 5;            // сколько ближайших показывать
-    [SerializeField] private float exitHysteresis = 1.15f;    // выход при dist > radius * k
-    [SerializeField] private int smoothingSamples = 3;        // сглаживание GPS (скользящее среднее)
-    [SerializeField] private float defaultPoiRadius = 20f;    // радиус новой метки, м
+    [SerializeField] private float updateInterval = 0.5f;
+    [SerializeField] private float visibilityRadius = 200f;
+    [SerializeField] private int nearestCount = 5;
+    [SerializeField] private float exitHysteresis = 1.15f;
+    [SerializeField] private int smoothingSamples = 3;
+    [SerializeField] private float defaultPoiRadius = 20f;
 
     public event Action<Poi> ZoneEntered;
     public event Action<Poi> ZoneExited;
@@ -29,47 +31,116 @@ public class LocationManager : MonoBehaviour
     public Poi ActivePoi { get; private set; }
     public IReadOnlyList<Poi> Pois => pois;
     public string StoragePath => repository.Info;
+    public bool IsMock => provider is MockLocationProvider;
+    public string SourceInfo => provider == null
+        ? "no provider"
+        : $"{provider.GetType().Name} ({provider.Status})";
 
     private LocationProviderBase provider;
     private IPoiRepository repository;
     private List<Poi> pois = new List<Poi>();
     private readonly Queue<(double lat, double lon)> samples = new Queue<(double, double)>();
+    private bool hasPosition;          // хоть раз получали позицию
+    private Coroutine initRoutine;
 
     private void Awake()
     {
         repository = new JsonPoiRepository();
         pois = repository.Load();
-        provider = Application.isEditor ? editorProvider : deviceProvider;
+        provider = (Application.isEditor || useMockProvider) ? editorProvider : deviceProvider;
     }
 
-    private IEnumerator Start()
+    private void Start()
     {
         if (provider == null)
         {
             Debug.LogError("LocationManager: не назначен провайдер координат.");
-            yield break;
+            return;
         }
+        StartCoroutine(PollLoop());
+        initRoutine = StartCoroutine(InitProvider(provider));
+    }
 
-        yield return provider.Init();
-
-        if (!provider.IsReady)
-        {
-            Debug.LogError("LocationManager: источник координат не готов.");
-            yield break;
-        }
-
-        IsReady = true;
+    private IEnumerator PollLoop()
+    {
         var wait = new WaitForSeconds(updateInterval);
         while (true)
         {
-            Tick();
+            if (IsReady && provider != null && provider.IsReady) Tick();
             yield return wait;
         }
     }
 
+    private IEnumerator InitProvider(LocationProviderBase target)
+    {
+        IsReady = false;
+        yield return target.Init();
+
+        if (provider != target) yield break; // за это время переключили источник
+
+        if (target.IsReady)
+        {
+            IsReady = true;
+            yield break;
+        }
+
+        if (fallbackToMock && target != editorProvider && editorProvider != null)
+        {
+            Debug.LogWarning("GPS недоступен, переключаюсь на кнопки.");
+            ActivateMock();
+        }
+        else
+        {
+            Debug.LogError("LocationManager: источник координат не готов.");
+        }
+    }
+
+    // ---------- Переключение источника ----------
+
+    public void ToggleMockMode() => SetMockMode(!IsMock);
+
+    public void SetMockMode(bool mock)
+    {
+        if (mock == IsMock) return;
+
+        if (mock)
+        {
+            if (editorProvider == null) return;
+            StopInit();
+            ActivateMock();
+        }
+        else
+        {
+            if (deviceProvider == null) return;
+            StopInit();
+            samples.Clear();
+            provider = deviceProvider;
+            initRoutine = StartCoroutine(InitProvider(provider));
+        }
+    }
+
+    private void StopInit()
+    {
+        if (initRoutine != null) StopCoroutine(initRoutine);
+        initRoutine = null;
+    }
+
+    private void ActivateMock()
+    {
+        provider = editorProvider;
+        samples.Clear();
+        if (provider is MockLocationProvider m)
+        {
+            if (hasPosition) m.SetPosition(CurrentLat, CurrentLon); // с последней известной точки
+            else m.ResetToStart();
+        }
+        IsReady = provider.IsReady;
+    }
+
+    // ---------- Основной цикл ----------
+
     private void Tick()
     {
-        if (!provider.IsReady) return;
         UpdatePosition();
         NearestUpdated?.Invoke(GetNearest(nearestCount, visibilityRadius));
         UpdateZone();
@@ -85,9 +156,9 @@ public class LocationManager : MonoBehaviour
         CurrentLat = sumLat / samples.Count;
         CurrentLon = sumLon / samples.Count;
         Accuracy = provider.Accuracy;
+        hasPosition = true;
     }
 
-    // N ближайших меток в пределах maxDistance, отсортированных по расстоянию
     public List<PoiDistance> GetNearest(int n, double maxDistance)
     {
         var result = new List<PoiDistance>();
@@ -106,14 +177,13 @@ public class LocationManager : MonoBehaviour
         if (ActivePoi != null)
         {
             double d = Geo.Distance(CurrentLat, CurrentLon, ActivePoi.lat, ActivePoi.lon);
-            if (d <= ActivePoi.radius * exitHysteresis) return; // всё ещё в зоне
+            if (d <= ActivePoi.radius * exitHysteresis) return;
 
             var left = ActivePoi;
             ActivePoi = null;
             ZoneExited?.Invoke(left);
         }
 
-        // Ищем ближайшую зону, в которую попали
         Poi best = null;
         double bestDist = double.MaxValue;
         foreach (var p in pois)
@@ -129,7 +199,6 @@ public class LocationManager : MonoBehaviour
         }
     }
 
-    // Кнопка «поставить метку здесь»
     public Poi AddPoiHere(string poiName = null, float radius = -1f, string contentId = "default")
     {
         if (!IsReady)
@@ -151,7 +220,7 @@ public class LocationManager : MonoBehaviour
         pois.Add(poi);
         repository.Save(pois);
         PoiAdded?.Invoke(poi);
-        UpdateZone(); // сразу попадаем в только что созданную зону
+        UpdateZone();
         return poi;
     }
 

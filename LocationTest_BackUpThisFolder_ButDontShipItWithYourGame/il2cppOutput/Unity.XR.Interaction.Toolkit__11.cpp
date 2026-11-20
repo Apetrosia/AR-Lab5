@@ -2469,7 +2469,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_get_magnitude_mF0D6
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 28569
+// Method Definition Index: 28572
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ScreenSpacePinchScaleInput_get_useRotationThreshold_m7062A2B5E61AFDBE4F03D7CB549D465AFF11F37E (ScreenSpacePinchScaleInput_t13B0707220E85CADE7016EE5C0167AD51E724F31* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -2478,7 +2478,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ScreenSpacePinchScaleInput_get_useRotati
 		return L_0;
 	}
 }
-// Method Definition Index: 28570
+// Method Definition Index: 28573
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenSpacePinchScaleInput_set_useRotationThreshold_m8A287A88CE7BA815ABF47B22053FB7894484106F (ScreenSpacePinchScaleInput_t13B0707220E85CADE7016EE5C0167AD51E724F31* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -2488,7 +2488,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenSpacePinchScaleInput_set_useRotati
 		return;
 	}
 }
-// Method Definition Index: 28571
+// Method Definition Index: 28574
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ScreenSpacePinchScaleInput_get_rotationThreshold_m9A70729E3B67915C8992CC384B9AD8703B2224EE (ScreenSpacePinchScaleInput_t13B0707220E85CADE7016EE5C0167AD51E724F31* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -2497,7 +2497,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ScreenSpacePinchScaleInput_get_rotation
 		return L_0;
 	}
 }
-// Method Definition Index: 28572
+// Method Definition Index: 28575
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenSpacePinchScaleInput_set_rotationThreshold_mEB8DD446105B2622A6A64A5DB44E00E8AFF5220E (ScreenSpacePinchScaleInput_t13B0707220E85CADE7016EE5C0167AD51E724F31* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -2507,7 +2507,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenSpacePinchScaleInput_set_rotationT
 		return;
 	}
 }
-// Method Definition Index: 28573
+// Method Definition Index: 28576
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR XRInputValueReader_1_t7482F990F323B5D373DF221174629A7C3EB97BC5* ScreenSpacePinchScaleInput_get_pinchGapDeltaInput_m3C9F2E012D8C66A8B5E9166618D6DEAA6F73BC5B (ScreenSpacePinchScaleInput_t13B0707220E85CADE7016EE5C0167AD51E724F31* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -2516,7 +2516,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR XRInputValueReader_1_t7482F990F323B5D373DF221
 		return L_0;
 	}
 }
-// Method Definition Index: 28574
+// Method Definition Index: 28577
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenSpacePinchScaleInput_set_pinchGapDeltaInput_m38C788C588E741FDEDEE5199B0F19F686CAD260A (ScreenSpacePinchScaleInput_t13B0707220E85CADE7016EE5C0167AD51E724F31* __this, XRInputValueReader_1_t7482F990F323B5D373DF221174629A7C3EB97BC5* ___0_value, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -2527,7 +2527,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenSpacePinchScaleInput_set_pinchGapD
 		return;
 	}
 }
-// Method Definition Index: 28575
+// Method Definition Index: 28578
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR XRInputValueReader_1_t7482F990F323B5D373DF221174629A7C3EB97BC5* ScreenSpacePinchScaleInput_get_twistDeltaRotationInput_mBD150DE67A25D21F9E4791E3A7D967FF30CFDCFF (ScreenSpacePinchScaleInput_t13B0707220E85CADE7016EE5C0167AD51E724F31* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -2536,7 +2536,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR XRInputValueReader_1_t7482F990F323B5D373DF221
 		return L_0;
 	}
 }
-// Method Definition Index: 28576
+// Method Definition Index: 28579
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenSpacePinchScaleInput_set_twistDeltaRotationInput_mA722204D963B6AED5D1794931D757F0314AEF2E9 (ScreenSpacePinchScaleInput_t13B0707220E85CADE7016EE5C0167AD51E724F31* __this, XRInputValueReader_1_t7482F990F323B5D373DF221174629A7C3EB97BC5* ___0_value, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -2547,7 +2547,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenSpacePinchScaleInput_set_twistDelt
 		return;
 	}
 }
-// Method Definition Index: 28577
+// Method Definition Index: 28580
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenSpacePinchScaleInput_OnEnable_m2D2F115AA0871FE1F16EC3F6B8BBE9F6865244AA (ScreenSpacePinchScaleInput_t13B0707220E85CADE7016EE5C0167AD51E724F31* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -2561,7 +2561,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenSpacePinchScaleInput_OnEnable_m2D2
 		return;
 	}
 }
-// Method Definition Index: 28578
+// Method Definition Index: 28581
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenSpacePinchScaleInput_OnDisable_m8539FFF09BC62A157DC7E08AD4209CD91FD01F6B (ScreenSpacePinchScaleInput_t13B0707220E85CADE7016EE5C0167AD51E724F31* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -2575,7 +2575,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenSpacePinchScaleInput_OnDisable_m85
 		return;
 	}
 }
-// Method Definition Index: 28579
+// Method Definition Index: 28582
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ScreenSpacePinchScaleInput_ReadValue_m7F087DB0CFA949F0A676FE9CE90806ADD39773A9 (ScreenSpacePinchScaleInput_t13B0707220E85CADE7016EE5C0167AD51E724F31* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -2587,7 +2587,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ScreenSpacePinchScaleInput_ReadValue_m7
 		return L_1;
 	}
 }
-// Method Definition Index: 28580
+// Method Definition Index: 28583
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ScreenSpacePinchScaleInput_TryReadValue_m940E53377660413F069DAC77BA8758A6886974D8 (ScreenSpacePinchScaleInput_t13B0707220E85CADE7016EE5C0167AD51E724F31* __this, float* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2662,7 +2662,7 @@ IL_0048:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 28581
+// Method Definition Index: 28584
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenSpacePinchScaleInput__ctor_mCA2FE1CC15A40A6D14AA03072DBDE4C4C4A14A6C (ScreenSpacePinchScaleInput_t13B0707220E85CADE7016EE5C0167AD51E724F31* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2698,7 +2698,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenSpacePinchScaleInput__ctor_mCA2FE1
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 28582
+// Method Definition Index: 28585
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ScreenSpaceRayPoseDriver_get_controllerCamera_m664E6108C9AD435DAF067EE548EB13A5938745E4 (ScreenSpaceRayPoseDriver_tC9238ADBF01675A47EE0612C2FB85AFEFC520C96* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -2707,7 +2707,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E
 		return L_0;
 	}
 }
-// Method Definition Index: 28583
+// Method Definition Index: 28586
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenSpaceRayPoseDriver_set_controllerCamera_m7C96AF695CE6D120337318DB85906213021FEEF9 (ScreenSpaceRayPoseDriver_tC9238ADBF01675A47EE0612C2FB85AFEFC520C96* __this, Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___0_value, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -2718,7 +2718,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenSpaceRayPoseDriver_set_controllerC
 		return;
 	}
 }
-// Method Definition Index: 28584
+// Method Definition Index: 28587
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR XRInputValueReader_1_t6B311BAB920F92BC851C1CD180A8555021DE8FC0* ScreenSpaceRayPoseDriver_get_tapStartPositionInput_mC28337D996B41AE4CF6D214E23D7274567D5F66A (ScreenSpaceRayPoseDriver_tC9238ADBF01675A47EE0612C2FB85AFEFC520C96* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -2727,7 +2727,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR XRInputValueReader_1_t6B311BAB920F92BC851C1CD
 		return L_0;
 	}
 }
-// Method Definition Index: 28585
+// Method Definition Index: 28588
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenSpaceRayPoseDriver_set_tapStartPositionInput_mA2CF0D99F872FCB288266FBF4D69491E24E82480 (ScreenSpaceRayPoseDriver_tC9238ADBF01675A47EE0612C2FB85AFEFC520C96* __this, XRInputValueReader_1_t6B311BAB920F92BC851C1CD180A8555021DE8FC0* ___0_value, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -2738,7 +2738,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenSpaceRayPoseDriver_set_tapStartPos
 		return;
 	}
 }
-// Method Definition Index: 28586
+// Method Definition Index: 28589
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR XRInputValueReader_1_t6B311BAB920F92BC851C1CD180A8555021DE8FC0* ScreenSpaceRayPoseDriver_get_dragStartPositionInput_m256DF6F3E9614F9B699F8C809B3B1EAB47E44DC9 (ScreenSpaceRayPoseDriver_tC9238ADBF01675A47EE0612C2FB85AFEFC520C96* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -2747,7 +2747,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR XRInputValueReader_1_t6B311BAB920F92BC851C1CD
 		return L_0;
 	}
 }
-// Method Definition Index: 28587
+// Method Definition Index: 28590
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenSpaceRayPoseDriver_set_dragStartPositionInput_m8CCB2770977FBA3274B332B75FABD1D46B53C2BD (ScreenSpaceRayPoseDriver_tC9238ADBF01675A47EE0612C2FB85AFEFC520C96* __this, XRInputValueReader_1_t6B311BAB920F92BC851C1CD180A8555021DE8FC0* ___0_value, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -2758,7 +2758,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenSpaceRayPoseDriver_set_dragStartPo
 		return;
 	}
 }
-// Method Definition Index: 28588
+// Method Definition Index: 28591
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR XRInputValueReader_1_t6B311BAB920F92BC851C1CD180A8555021DE8FC0* ScreenSpaceRayPoseDriver_get_dragCurrentPositionInput_m19289123150C3A35FD23BF58DD0A5FCFC327AA95 (ScreenSpaceRayPoseDriver_tC9238ADBF01675A47EE0612C2FB85AFEFC520C96* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -2767,7 +2767,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR XRInputValueReader_1_t6B311BAB920F92BC851C1CD
 		return L_0;
 	}
 }
-// Method Definition Index: 28589
+// Method Definition Index: 28592
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenSpaceRayPoseDriver_set_dragCurrentPositionInput_m4E5DC173FB9E162D37AEBF9A081DE782739E8264 (ScreenSpaceRayPoseDriver_tC9238ADBF01675A47EE0612C2FB85AFEFC520C96* __this, XRInputValueReader_1_t6B311BAB920F92BC851C1CD180A8555021DE8FC0* ___0_value, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -2778,7 +2778,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenSpaceRayPoseDriver_set_dragCurrent
 		return;
 	}
 }
-// Method Definition Index: 28590
+// Method Definition Index: 28593
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR XRInputValueReader_1_t8F80E2A6EAD592207D2C695B2C3BF79698840C35* ScreenSpaceRayPoseDriver_get_screenTouchCountInput_m36F6E74BF96489B36C869B622C3ECA7DCB2CDE29 (ScreenSpaceRayPoseDriver_tC9238ADBF01675A47EE0612C2FB85AFEFC520C96* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -2787,7 +2787,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR XRInputValueReader_1_t8F80E2A6EAD592207D2C695
 		return L_0;
 	}
 }
-// Method Definition Index: 28591
+// Method Definition Index: 28594
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenSpaceRayPoseDriver_set_screenTouchCountInput_m7DD17C244B69D8BEB23AD0E38CBA3152F311CC16 (ScreenSpaceRayPoseDriver_tC9238ADBF01675A47EE0612C2FB85AFEFC520C96* __this, XRInputValueReader_1_t8F80E2A6EAD592207D2C695B2C3BF79698840C35* ___0_value, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -2798,7 +2798,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenSpaceRayPoseDriver_set_screenTouch
 		return;
 	}
 }
-// Method Definition Index: 28592
+// Method Definition Index: 28595
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenSpaceRayPoseDriver_OnEnable_m368D3DB0F82EE6EB903206BB7154E959EB34313F (ScreenSpaceRayPoseDriver_tC9238ADBF01675A47EE0612C2FB85AFEFC520C96* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2860,7 +2860,7 @@ IL_003a:
 		return;
 	}
 }
-// Method Definition Index: 28593
+// Method Definition Index: 28596
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenSpaceRayPoseDriver_OnDisable_mA3C8A8F90B50D627F08732D034FF2831A275CAB3 (ScreenSpaceRayPoseDriver_tC9238ADBF01675A47EE0612C2FB85AFEFC520C96* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -2880,7 +2880,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenSpaceRayPoseDriver_OnDisable_mA3C8
 		return;
 	}
 }
-// Method Definition Index: 28594
+// Method Definition Index: 28597
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenSpaceRayPoseDriver_Update_m29CC0000424E34099453747CC1225FE8C85E882F (ScreenSpaceRayPoseDriver_tC9238ADBF01675A47EE0612C2FB85AFEFC520C96* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3031,7 +3031,7 @@ IL_00a1:
 		return;
 	}
 }
-// Method Definition Index: 28595
+// Method Definition Index: 28598
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenSpaceRayPoseDriver_ApplyPose_m2A7328A068779CF837443CE1015874700A3E2000 (ScreenSpaceRayPoseDriver_tC9238ADBF01675A47EE0612C2FB85AFEFC520C96* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_screenPosition, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -3123,7 +3123,7 @@ IL_006c:
 		return;
 	}
 }
-// Method Definition Index: 28596
+// Method Definition Index: 28599
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenSpaceRayPoseDriver__ctor_mEB76E8E01C189C7F908CD12EE587A076E8B5BCCF (ScreenSpaceRayPoseDriver_tC9238ADBF01675A47EE0612C2FB85AFEFC520C96* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3174,7 +3174,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenSpaceRayPoseDriver__ctor_mEB76E8E0
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 28597
+// Method Definition Index: 28600
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR XRRayInteractor_tDB7FC857A50F0B25DE4CEC0EE930242BB7380649* ScreenSpaceRotateInput_get_rayInteractor_m491756CA8FE7FEFA8ABD6DBD2F5F6242F3E78E77 (ScreenSpaceRotateInput_t176EDE1711C904644292B5785D692EC42F7A058D* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -3183,7 +3183,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR XRRayInteractor_tDB7FC857A50F0B25DE4CEC0EE930
 		return L_0;
 	}
 }
-// Method Definition Index: 28598
+// Method Definition Index: 28601
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenSpaceRotateInput_set_rayInteractor_m59E8FBE3C5CD8624DBB4720D02D35636B00B2FDD (ScreenSpaceRotateInput_t176EDE1711C904644292B5785D692EC42F7A058D* __this, XRRayInteractor_tDB7FC857A50F0B25DE4CEC0EE930242BB7380649* ___0_value, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -3194,7 +3194,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenSpaceRotateInput_set_rayInteractor
 		return;
 	}
 }
-// Method Definition Index: 28599
+// Method Definition Index: 28602
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR XRInputValueReader_1_t7482F990F323B5D373DF221174629A7C3EB97BC5* ScreenSpaceRotateInput_get_twistDeltaRotationInput_m81E395C09D9242B2883C29CA50E5A6C3F314CAD4 (ScreenSpaceRotateInput_t176EDE1711C904644292B5785D692EC42F7A058D* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -3203,7 +3203,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR XRInputValueReader_1_t7482F990F323B5D373DF221
 		return L_0;
 	}
 }
-// Method Definition Index: 28600
+// Method Definition Index: 28603
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenSpaceRotateInput_set_twistDeltaRotationInput_m7594BECF60DFCB08F25F5A47EE7956A991F9D7C4 (ScreenSpaceRotateInput_t176EDE1711C904644292B5785D692EC42F7A058D* __this, XRInputValueReader_1_t7482F990F323B5D373DF221174629A7C3EB97BC5* ___0_value, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -3214,7 +3214,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenSpaceRotateInput_set_twistDeltaRot
 		return;
 	}
 }
-// Method Definition Index: 28601
+// Method Definition Index: 28604
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR XRInputValueReader_1_t6B311BAB920F92BC851C1CD180A8555021DE8FC0* ScreenSpaceRotateInput_get_dragDeltaInput_mCFAE3F74ADAAA82413E5C01F5F7CDA6B2B6E8DBE (ScreenSpaceRotateInput_t176EDE1711C904644292B5785D692EC42F7A058D* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -3223,7 +3223,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR XRInputValueReader_1_t6B311BAB920F92BC851C1CD
 		return L_0;
 	}
 }
-// Method Definition Index: 28602
+// Method Definition Index: 28605
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenSpaceRotateInput_set_dragDeltaInput_m9015905AE24550B3B30D66D91403123CC5B98AE3 (ScreenSpaceRotateInput_t176EDE1711C904644292B5785D692EC42F7A058D* __this, XRInputValueReader_1_t6B311BAB920F92BC851C1CD180A8555021DE8FC0* ___0_value, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -3234,7 +3234,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenSpaceRotateInput_set_dragDeltaInpu
 		return;
 	}
 }
-// Method Definition Index: 28603
+// Method Definition Index: 28606
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR XRInputValueReader_1_t8F80E2A6EAD592207D2C695B2C3BF79698840C35* ScreenSpaceRotateInput_get_screenTouchCountInput_mC7E19151A0A28DFA8D8F396AAC365783A0808DBE (ScreenSpaceRotateInput_t176EDE1711C904644292B5785D692EC42F7A058D* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -3243,7 +3243,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR XRInputValueReader_1_t8F80E2A6EAD592207D2C695
 		return L_0;
 	}
 }
-// Method Definition Index: 28604
+// Method Definition Index: 28607
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenSpaceRotateInput_set_screenTouchCountInput_m51F6D2F9AE48B6FA5E132B21621D6C533B71D8C6 (ScreenSpaceRotateInput_t176EDE1711C904644292B5785D692EC42F7A058D* __this, XRInputValueReader_1_t8F80E2A6EAD592207D2C695B2C3BF79698840C35* ___0_value, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -3254,7 +3254,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenSpaceRotateInput_set_screenTouchCo
 		return;
 	}
 }
-// Method Definition Index: 28605
+// Method Definition Index: 28608
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenSpaceRotateInput_Reset_m2955175157648F64BB898B4DC5922B25F9F93918 (ScreenSpaceRotateInput_t176EDE1711C904644292B5785D692EC42F7A058D* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -3262,7 +3262,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenSpaceRotateInput_Reset_m2955175157
 		return;
 	}
 }
-// Method Definition Index: 28606
+// Method Definition Index: 28609
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenSpaceRotateInput_Awake_m600CE13DCD51B5D577D9AA2FE3FB9101CB2B1945 (ScreenSpaceRotateInput_t176EDE1711C904644292B5785D692EC42F7A058D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3296,7 +3296,7 @@ IL_001b:
 		return;
 	}
 }
-// Method Definition Index: 28607
+// Method Definition Index: 28610
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenSpaceRotateInput_OnEnable_m7799D530A2336D288176458F1A836EBFB92176BF (ScreenSpaceRotateInput_t176EDE1711C904644292B5785D692EC42F7A058D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3339,7 +3339,7 @@ IL_001b:
 		return;
 	}
 }
-// Method Definition Index: 28608
+// Method Definition Index: 28611
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenSpaceRotateInput_OnDisable_m6F5FF150E3F19D21BF20E69CDAD74E442899EE9C (ScreenSpaceRotateInput_t176EDE1711C904644292B5785D692EC42F7A058D* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -3356,7 +3356,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenSpaceRotateInput_OnDisable_m6F5FF1
 		return;
 	}
 }
-// Method Definition Index: 28609
+// Method Definition Index: 28612
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ScreenSpaceRotateInput_ReadValue_m51CD8D9BF4F38965D2A0FF0BB21F676FCDF004C1 (ScreenSpaceRotateInput_t176EDE1711C904644292B5785D692EC42F7A058D* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -3369,7 +3369,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 		return L_1;
 	}
 }
-// Method Definition Index: 28610
+// Method Definition Index: 28613
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ScreenSpaceRotateInput_TryReadValue_m918E76E66DA9E457382BB2560E5EF81F23A9C0EB (ScreenSpaceRotateInput_t176EDE1711C904644292B5785D692EC42F7A058D* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3480,7 +3480,7 @@ IL_009c:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 28611
+// Method Definition Index: 28614
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenSpaceRotateInput__ctor_mCA8FEDE2520F516C2F2F2A6BE5E64CCBCA7820D5 (ScreenSpaceRotateInput_t176EDE1711C904644292B5785D692EC42F7A058D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3523,7 +3523,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenSpaceRotateInput__ctor_mCA8FEDE252
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 28612
+// Method Definition Index: 28615
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR XRInputValueReader_1_t6B311BAB920F92BC851C1CD180A8555021DE8FC0* ScreenSpaceSelectInput_get_tapStartPositionInput_m61FA8BC7C3FB0E01E9F9BFC16019F3FDF946F19D (ScreenSpaceSelectInput_tB01274EC58636DAEAB31E1206191BDE6EAB9972E* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -3532,7 +3532,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR XRInputValueReader_1_t6B311BAB920F92BC851C1CD
 		return L_0;
 	}
 }
-// Method Definition Index: 28613
+// Method Definition Index: 28616
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenSpaceSelectInput_set_tapStartPositionInput_m3039809914750E60A0246BBC1E72A4213AA5D692 (ScreenSpaceSelectInput_tB01274EC58636DAEAB31E1206191BDE6EAB9972E* __this, XRInputValueReader_1_t6B311BAB920F92BC851C1CD180A8555021DE8FC0* ___0_value, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -3543,7 +3543,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenSpaceSelectInput_set_tapStartPosit
 		return;
 	}
 }
-// Method Definition Index: 28614
+// Method Definition Index: 28617
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR XRInputValueReader_1_t6B311BAB920F92BC851C1CD180A8555021DE8FC0* ScreenSpaceSelectInput_get_dragCurrentPositionInput_m47102E8DC1EF4AE7EC1978E5B14944BAA37E5A8E (ScreenSpaceSelectInput_tB01274EC58636DAEAB31E1206191BDE6EAB9972E* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -3552,7 +3552,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR XRInputValueReader_1_t6B311BAB920F92BC851C1CD
 		return L_0;
 	}
 }
-// Method Definition Index: 28615
+// Method Definition Index: 28618
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenSpaceSelectInput_set_dragCurrentPositionInput_m6FE407E6DE925765C489368AD05FB93D69F7E01C (ScreenSpaceSelectInput_tB01274EC58636DAEAB31E1206191BDE6EAB9972E* __this, XRInputValueReader_1_t6B311BAB920F92BC851C1CD180A8555021DE8FC0* ___0_value, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -3563,7 +3563,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenSpaceSelectInput_set_dragCurrentPo
 		return;
 	}
 }
-// Method Definition Index: 28616
+// Method Definition Index: 28619
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR XRInputValueReader_1_t7482F990F323B5D373DF221174629A7C3EB97BC5* ScreenSpaceSelectInput_get_pinchGapDeltaInput_m975FB4FAB8D8F66FCBE7A0350B20C758D25A3F57 (ScreenSpaceSelectInput_tB01274EC58636DAEAB31E1206191BDE6EAB9972E* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -3572,7 +3572,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR XRInputValueReader_1_t7482F990F323B5D373DF221
 		return L_0;
 	}
 }
-// Method Definition Index: 28617
+// Method Definition Index: 28620
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenSpaceSelectInput_set_pinchGapDeltaInput_m94908E61799121A8EA0D53A7C038281DDCDB66F7 (ScreenSpaceSelectInput_tB01274EC58636DAEAB31E1206191BDE6EAB9972E* __this, XRInputValueReader_1_t7482F990F323B5D373DF221174629A7C3EB97BC5* ___0_value, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -3583,7 +3583,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenSpaceSelectInput_set_pinchGapDelta
 		return;
 	}
 }
-// Method Definition Index: 28618
+// Method Definition Index: 28621
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR XRInputValueReader_1_t7482F990F323B5D373DF221174629A7C3EB97BC5* ScreenSpaceSelectInput_get_twistDeltaRotationInput_mD43E16E16E0EB7101DC359880009725FBC08F9FA (ScreenSpaceSelectInput_tB01274EC58636DAEAB31E1206191BDE6EAB9972E* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -3592,7 +3592,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR XRInputValueReader_1_t7482F990F323B5D373DF221
 		return L_0;
 	}
 }
-// Method Definition Index: 28619
+// Method Definition Index: 28622
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenSpaceSelectInput_set_twistDeltaRotationInput_m17AD13DB0A268B6A173FE7A500B27B25EA067C91 (ScreenSpaceSelectInput_tB01274EC58636DAEAB31E1206191BDE6EAB9972E* __this, XRInputValueReader_1_t7482F990F323B5D373DF221174629A7C3EB97BC5* ___0_value, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -3603,7 +3603,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenSpaceSelectInput_set_twistDeltaRot
 		return;
 	}
 }
-// Method Definition Index: 28620
+// Method Definition Index: 28623
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenSpaceSelectInput_Update_mD347505FEF9CBDC028DF8F8FE822FA5FA45D0968 (ScreenSpaceSelectInput_tB01274EC58636DAEAB31E1206191BDE6EAB9972E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3764,7 +3764,7 @@ IL_0089:
 		return;
 	}
 }
-// Method Definition Index: 28621
+// Method Definition Index: 28624
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ScreenSpaceSelectInput_ReadIsPerformed_m28846A2BC46A29944D901C5BABCD7CD392A947B5 (ScreenSpaceSelectInput_tB01274EC58636DAEAB31E1206191BDE6EAB9972E* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -3773,7 +3773,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ScreenSpaceSelectInput_ReadIsPerformed_m
 		return L_0;
 	}
 }
-// Method Definition Index: 28622
+// Method Definition Index: 28625
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ScreenSpaceSelectInput_ReadWasPerformedThisFrame_m84C7ABA279D6D9CD45A03A0C424C86990367B60B (ScreenSpaceSelectInput_tB01274EC58636DAEAB31E1206191BDE6EAB9972E* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -3782,7 +3782,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ScreenSpaceSelectInput_ReadWasPerformedT
 		return L_0;
 	}
 }
-// Method Definition Index: 28623
+// Method Definition Index: 28626
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ScreenSpaceSelectInput_ReadWasCompletedThisFrame_m45135D8D1E7E1FA3B0E4290C473A46B9C6CF0785 (ScreenSpaceSelectInput_tB01274EC58636DAEAB31E1206191BDE6EAB9972E* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -3791,7 +3791,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ScreenSpaceSelectInput_ReadWasCompletedT
 		return L_0;
 	}
 }
-// Method Definition Index: 28624
+// Method Definition Index: 28627
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ScreenSpaceSelectInput_ReadValue_m5982972A885DD6C4246A66BF43DD3377CF9807F2 (ScreenSpaceSelectInput_tB01274EC58636DAEAB31E1206191BDE6EAB9972E* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -3811,7 +3811,7 @@ IL_000e:
 		return (1.0f);
 	}
 }
-// Method Definition Index: 28625
+// Method Definition Index: 28628
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ScreenSpaceSelectInput_TryReadValue_m49773118A7FBB372AA2AC23F20BD28C5DF00F7CC (ScreenSpaceSelectInput_tB01274EC58636DAEAB31E1206191BDE6EAB9972E* __this, float* ___0_value, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -3848,7 +3848,7 @@ IL_0015:
 		return L_2;
 	}
 }
-// Method Definition Index: 28626
+// Method Definition Index: 28629
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenSpaceSelectInput__ctor_m7F15F01C4E575639962635B176460244735B5888 (ScreenSpaceSelectInput_tB01274EC58636DAEAB31E1206191BDE6EAB9972E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3894,7 +3894,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenSpaceSelectInput__ctor_m7F15F01C4E
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 28627
+// Method Definition Index: 28630
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* TouchscreenGestureInputController_get_tapStartPosition_mEA02834195CBAFD5C6ABBF8D7E68AB3D8765FF3B (TouchscreenGestureInputController_t214270BADC6891B444B06C4E4F7615859AD07297* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -3903,7 +3903,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		return L_0;
 	}
 }
-// Method Definition Index: 28628
+// Method Definition Index: 28631
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchscreenGestureInputController_set_tapStartPosition_mF5EFF9982A9BA55A43505AB1BEB3D3A76D2B0EC7 (TouchscreenGestureInputController_t214270BADC6891B444B06C4E4F7615859AD07297* __this, Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* ___0_value, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -3914,7 +3914,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchscreenGestureInputController_set_ta
 		return;
 	}
 }
-// Method Definition Index: 28629
+// Method Definition Index: 28632
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* TouchscreenGestureInputController_get_dragStartPosition_m0AA9F1D3F9E2E26168700F4E1C90D8A65FF413D6 (TouchscreenGestureInputController_t214270BADC6891B444B06C4E4F7615859AD07297* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -3923,7 +3923,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		return L_0;
 	}
 }
-// Method Definition Index: 28630
+// Method Definition Index: 28633
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchscreenGestureInputController_set_dragStartPosition_m741C4FD2838EA11FEB9D12D9D619FE8957AC0FCE (TouchscreenGestureInputController_t214270BADC6891B444B06C4E4F7615859AD07297* __this, Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* ___0_value, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -3934,7 +3934,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchscreenGestureInputController_set_dr
 		return;
 	}
 }
-// Method Definition Index: 28631
+// Method Definition Index: 28634
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* TouchscreenGestureInputController_get_dragCurrentPosition_m460E3712A80B0137A2ABFB9B383C97CDCAA63EC8 (TouchscreenGestureInputController_t214270BADC6891B444B06C4E4F7615859AD07297* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -3943,7 +3943,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		return L_0;
 	}
 }
-// Method Definition Index: 28632
+// Method Definition Index: 28635
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchscreenGestureInputController_set_dragCurrentPosition_m7FE3E0467AA9A59C957F365D14A95E0D69EC0170 (TouchscreenGestureInputController_t214270BADC6891B444B06C4E4F7615859AD07297* __this, Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* ___0_value, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -3954,7 +3954,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchscreenGestureInputController_set_dr
 		return;
 	}
 }
-// Method Definition Index: 28633
+// Method Definition Index: 28636
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* TouchscreenGestureInputController_get_dragDelta_mE7A3424A10E8AAC4CDF047CA059D8364FC66CC95 (TouchscreenGestureInputController_t214270BADC6891B444B06C4E4F7615859AD07297* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -3963,7 +3963,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		return L_0;
 	}
 }
-// Method Definition Index: 28634
+// Method Definition Index: 28637
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchscreenGestureInputController_set_dragDelta_m1170CA7FBEB956277353AD37C012498914A4F27C (TouchscreenGestureInputController_t214270BADC6891B444B06C4E4F7615859AD07297* __this, Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* ___0_value, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -3974,7 +3974,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchscreenGestureInputController_set_dr
 		return;
 	}
 }
-// Method Definition Index: 28635
+// Method Definition Index: 28638
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* TouchscreenGestureInputController_get_pinchStartPosition1_m58D478EF6DCE3AD1EE98F0B93CB11C92C2EDC52F (TouchscreenGestureInputController_t214270BADC6891B444B06C4E4F7615859AD07297* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -3983,7 +3983,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		return L_0;
 	}
 }
-// Method Definition Index: 28636
+// Method Definition Index: 28639
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchscreenGestureInputController_set_pinchStartPosition1_m67A7F36DE0AE0FA3658637577E9068BE8DB55928 (TouchscreenGestureInputController_t214270BADC6891B444B06C4E4F7615859AD07297* __this, Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* ___0_value, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -3994,7 +3994,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchscreenGestureInputController_set_pi
 		return;
 	}
 }
-// Method Definition Index: 28637
+// Method Definition Index: 28640
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* TouchscreenGestureInputController_get_pinchStartPosition2_m5554FA148E0549A853FB90346DEA61D4737AD793 (TouchscreenGestureInputController_t214270BADC6891B444B06C4E4F7615859AD07297* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -4003,7 +4003,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		return L_0;
 	}
 }
-// Method Definition Index: 28638
+// Method Definition Index: 28641
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchscreenGestureInputController_set_pinchStartPosition2_m901420CFDB62EBFCD03F85C735A1451A9008453A (TouchscreenGestureInputController_t214270BADC6891B444B06C4E4F7615859AD07297* __this, Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* ___0_value, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -4014,7 +4014,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchscreenGestureInputController_set_pi
 		return;
 	}
 }
-// Method Definition Index: 28639
+// Method Definition Index: 28642
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* TouchscreenGestureInputController_get_pinchGap_m257F3DFB0D012E2E2BB486468866FF70194C5F87 (TouchscreenGestureInputController_t214270BADC6891B444B06C4E4F7615859AD07297* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -4023,7 +4023,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_0;
 	}
 }
-// Method Definition Index: 28640
+// Method Definition Index: 28643
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchscreenGestureInputController_set_pinchGap_m1C9038BABA787CEDAFF5D7A2E824D75C6FDDC2B7 (TouchscreenGestureInputController_t214270BADC6891B444B06C4E4F7615859AD07297* __this, AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* ___0_value, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -4034,7 +4034,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchscreenGestureInputController_set_pi
 		return;
 	}
 }
-// Method Definition Index: 28641
+// Method Definition Index: 28644
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* TouchscreenGestureInputController_get_pinchGapDelta_mE29FA95CD3AD966D7E9AD87391FB52A2DC772829 (TouchscreenGestureInputController_t214270BADC6891B444B06C4E4F7615859AD07297* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -4043,7 +4043,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_0;
 	}
 }
-// Method Definition Index: 28642
+// Method Definition Index: 28645
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchscreenGestureInputController_set_pinchGapDelta_m1664AC5C87A35133E730F15699790B3C25F1D519 (TouchscreenGestureInputController_t214270BADC6891B444B06C4E4F7615859AD07297* __this, AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* ___0_value, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -4054,7 +4054,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchscreenGestureInputController_set_pi
 		return;
 	}
 }
-// Method Definition Index: 28643
+// Method Definition Index: 28646
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* TouchscreenGestureInputController_get_twistStartPosition1_m79FC0073A3DE9C655EDC533EDA2560FD2AF69E5E (TouchscreenGestureInputController_t214270BADC6891B444B06C4E4F7615859AD07297* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -4063,7 +4063,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		return L_0;
 	}
 }
-// Method Definition Index: 28644
+// Method Definition Index: 28647
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchscreenGestureInputController_set_twistStartPosition1_mAF6F92587C15BB6503734B6E3263E68F8755A5C8 (TouchscreenGestureInputController_t214270BADC6891B444B06C4E4F7615859AD07297* __this, Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* ___0_value, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -4074,7 +4074,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchscreenGestureInputController_set_tw
 		return;
 	}
 }
-// Method Definition Index: 28645
+// Method Definition Index: 28648
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* TouchscreenGestureInputController_get_twistStartPosition2_mF5EF18B85E07E22EF7DFF572E0A11A099917EE9C (TouchscreenGestureInputController_t214270BADC6891B444B06C4E4F7615859AD07297* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -4083,7 +4083,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		return L_0;
 	}
 }
-// Method Definition Index: 28646
+// Method Definition Index: 28649
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchscreenGestureInputController_set_twistStartPosition2_mE2A561F0F858F519DF61E0C5ECEFEFD9F8B7DF1A (TouchscreenGestureInputController_t214270BADC6891B444B06C4E4F7615859AD07297* __this, Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* ___0_value, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -4094,7 +4094,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchscreenGestureInputController_set_tw
 		return;
 	}
 }
-// Method Definition Index: 28647
+// Method Definition Index: 28650
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* TouchscreenGestureInputController_get_twistDeltaRotation_mB915664BA2D9D7814DDEB340DDA742C21FC71627 (TouchscreenGestureInputController_t214270BADC6891B444B06C4E4F7615859AD07297* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -4103,7 +4103,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_0;
 	}
 }
-// Method Definition Index: 28648
+// Method Definition Index: 28651
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchscreenGestureInputController_set_twistDeltaRotation_mFD885ACDFDBD2C96B6BB7640728C00E58EA0719D (TouchscreenGestureInputController_t214270BADC6891B444B06C4E4F7615859AD07297* __this, AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* ___0_value, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -4114,7 +4114,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchscreenGestureInputController_set_tw
 		return;
 	}
 }
-// Method Definition Index: 28649
+// Method Definition Index: 28652
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* TouchscreenGestureInputController_get_twoFingerDragStartPosition1_mBF016BC4D43837CDF80A1C16B19295026C085AB7 (TouchscreenGestureInputController_t214270BADC6891B444B06C4E4F7615859AD07297* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -4123,7 +4123,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		return L_0;
 	}
 }
-// Method Definition Index: 28650
+// Method Definition Index: 28653
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchscreenGestureInputController_set_twoFingerDragStartPosition1_mB3BA3EA17EC3FC04B2C859D8A9E99385616B4471 (TouchscreenGestureInputController_t214270BADC6891B444B06C4E4F7615859AD07297* __this, Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* ___0_value, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -4134,7 +4134,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchscreenGestureInputController_set_tw
 		return;
 	}
 }
-// Method Definition Index: 28651
+// Method Definition Index: 28654
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* TouchscreenGestureInputController_get_twoFingerDragStartPosition2_mAAAAE4C1A2FD45449072761F5C16F17FACBE09A2 (TouchscreenGestureInputController_t214270BADC6891B444B06C4E4F7615859AD07297* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -4143,7 +4143,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		return L_0;
 	}
 }
-// Method Definition Index: 28652
+// Method Definition Index: 28655
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchscreenGestureInputController_set_twoFingerDragStartPosition2_m922E749258E6FC2F616282DAC6B537E8DEC32867 (TouchscreenGestureInputController_t214270BADC6891B444B06C4E4F7615859AD07297* __this, Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* ___0_value, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -4154,7 +4154,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchscreenGestureInputController_set_tw
 		return;
 	}
 }
-// Method Definition Index: 28653
+// Method Definition Index: 28656
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* TouchscreenGestureInputController_get_twoFingerDragCurrentPosition_m084820CBE76304292914AB658CBC38108C9106B5 (TouchscreenGestureInputController_t214270BADC6891B444B06C4E4F7615859AD07297* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -4163,7 +4163,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		return L_0;
 	}
 }
-// Method Definition Index: 28654
+// Method Definition Index: 28657
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchscreenGestureInputController_set_twoFingerDragCurrentPosition_mF094A362D6B7B46418328F8594C2B03F74B65301 (TouchscreenGestureInputController_t214270BADC6891B444B06C4E4F7615859AD07297* __this, Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* ___0_value, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -4174,7 +4174,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchscreenGestureInputController_set_tw
 		return;
 	}
 }
-// Method Definition Index: 28655
+// Method Definition Index: 28658
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* TouchscreenGestureInputController_get_twoFingerDragDelta_m355DF874DF205C43E5CA01A34401B792FB6B97FD (TouchscreenGestureInputController_t214270BADC6891B444B06C4E4F7615859AD07297* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -4183,7 +4183,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		return L_0;
 	}
 }
-// Method Definition Index: 28656
+// Method Definition Index: 28659
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchscreenGestureInputController_set_twoFingerDragDelta_m0DB38FE5C25A8A0F29A9156BE996A4B7ADAAF90E (TouchscreenGestureInputController_t214270BADC6891B444B06C4E4F7615859AD07297* __this, Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* ___0_value, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -4194,7 +4194,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchscreenGestureInputController_set_tw
 		return;
 	}
 }
-// Method Definition Index: 28657
+// Method Definition Index: 28660
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* TouchscreenGestureInputController_get_fingerCount_mAF1B548089592416076DEB9E856DFFB3CE79BCC6 (TouchscreenGestureInputController_t214270BADC6891B444B06C4E4F7615859AD07297* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -4203,7 +4203,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 		return L_0;
 	}
 }
-// Method Definition Index: 28658
+// Method Definition Index: 28661
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchscreenGestureInputController_set_fingerCount_m78FB1E1A10E70E91103AB66CB221ABFC55ABB010 (TouchscreenGestureInputController_t214270BADC6891B444B06C4E4F7615859AD07297* __this, IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* ___0_value, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -4214,7 +4214,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchscreenGestureInputController_set_fi
 		return;
 	}
 }
-// Method Definition Index: 28659
+// Method Definition Index: 28662
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TapGestureRecognizer_t6B221668F538CDF22D6FEC88AA3E2ED483A6DD47* TouchscreenGestureInputController_get_tapGestureRecognizer_mDF6988E50ADA646E787CE7EB11C77F54F38E4A7B (TouchscreenGestureInputController_t214270BADC6891B444B06C4E4F7615859AD07297* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -4223,7 +4223,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TapGestureRecognizer_t6B221668F538CDF22D6FEC8
 		return L_0;
 	}
 }
-// Method Definition Index: 28660
+// Method Definition Index: 28663
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchscreenGestureInputController_set_tapGestureRecognizer_m442CE6424C69F5ECDE1F330068F9C438A4368706 (TouchscreenGestureInputController_t214270BADC6891B444B06C4E4F7615859AD07297* __this, TapGestureRecognizer_t6B221668F538CDF22D6FEC88AA3E2ED483A6DD47* ___0_value, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -4234,7 +4234,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchscreenGestureInputController_set_ta
 		return;
 	}
 }
-// Method Definition Index: 28661
+// Method Definition Index: 28664
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DragGestureRecognizer_t4E0FDDB00687AF441143447A26E3C62401A793F5* TouchscreenGestureInputController_get_dragGestureRecognizer_mACD3EDD5E0770DC7D56FB7002EDD929126707177 (TouchscreenGestureInputController_t214270BADC6891B444B06C4E4F7615859AD07297* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -4243,7 +4243,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DragGestureRecognizer_t4E0FDDB00687AF44114344
 		return L_0;
 	}
 }
-// Method Definition Index: 28662
+// Method Definition Index: 28665
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchscreenGestureInputController_set_dragGestureRecognizer_m9D0FB6F21F72F6C28C249634C50C1B4D412AF56D (TouchscreenGestureInputController_t214270BADC6891B444B06C4E4F7615859AD07297* __this, DragGestureRecognizer_t4E0FDDB00687AF441143447A26E3C62401A793F5* ___0_value, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -4254,7 +4254,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchscreenGestureInputController_set_dr
 		return;
 	}
 }
-// Method Definition Index: 28663
+// Method Definition Index: 28666
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PinchGestureRecognizer_tE572B5EFA291C87001D3169F7C684C3723122501* TouchscreenGestureInputController_get_pinchGestureRecognizer_m44F31740B5BC3519C17E055C5DC2BE2377B67555 (TouchscreenGestureInputController_t214270BADC6891B444B06C4E4F7615859AD07297* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -4263,7 +4263,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PinchGestureRecognizer_tE572B5EFA291C87001D31
 		return L_0;
 	}
 }
-// Method Definition Index: 28664
+// Method Definition Index: 28667
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchscreenGestureInputController_set_pinchGestureRecognizer_m293B38604CAF861DE6CD6635E91E3305E374FFF5 (TouchscreenGestureInputController_t214270BADC6891B444B06C4E4F7615859AD07297* __this, PinchGestureRecognizer_tE572B5EFA291C87001D3169F7C684C3723122501* ___0_value, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -4274,7 +4274,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchscreenGestureInputController_set_pi
 		return;
 	}
 }
-// Method Definition Index: 28665
+// Method Definition Index: 28668
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TwistGestureRecognizer_tBC24BC65279B1C2E58B9D139A44CDC79F243BE46* TouchscreenGestureInputController_get_twistGestureRecognizer_m377D71359BF1A48435A656AAD1DABC069470556C (TouchscreenGestureInputController_t214270BADC6891B444B06C4E4F7615859AD07297* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -4283,7 +4283,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TwistGestureRecognizer_tBC24BC65279B1C2E58B9D
 		return L_0;
 	}
 }
-// Method Definition Index: 28666
+// Method Definition Index: 28669
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchscreenGestureInputController_set_twistGestureRecognizer_m67D5E0FCD736C593DDA0D8C6A1A7CA53BA4518F7 (TouchscreenGestureInputController_t214270BADC6891B444B06C4E4F7615859AD07297* __this, TwistGestureRecognizer_tBC24BC65279B1C2E58B9D139A44CDC79F243BE46* ___0_value, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -4294,7 +4294,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchscreenGestureInputController_set_tw
 		return;
 	}
 }
-// Method Definition Index: 28667
+// Method Definition Index: 28670
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TwoFingerDragGestureRecognizer_t86C15F291E58ADC2F6F459DECEE8C6BC93687542* TouchscreenGestureInputController_get_twoFingerDragGestureRecognizer_m7BBE494925741CB56FD3AA17B443EA1FE0D39E85 (TouchscreenGestureInputController_t214270BADC6891B444B06C4E4F7615859AD07297* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -4303,7 +4303,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TwoFingerDragGestureRecognizer_t86C15F291E58A
 		return L_0;
 	}
 }
-// Method Definition Index: 28668
+// Method Definition Index: 28671
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchscreenGestureInputController_set_twoFingerDragGestureRecognizer_m75F63539F65DC705D68A62D7B5CFB5AB2E678234 (TouchscreenGestureInputController_t214270BADC6891B444B06C4E4F7615859AD07297* __this, TwoFingerDragGestureRecognizer_t86C15F291E58ADC2F6F459DECEE8C6BC93687542* ___0_value, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -4314,7 +4314,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchscreenGestureInputController_set_tw
 		return;
 	}
 }
-// Method Definition Index: 28669
+// Method Definition Index: 28672
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchscreenGestureInputController_FinishSetup_m95500E900C0F94377CE21543EAB48F465257ABB2 (TouchscreenGestureInputController_t214270BADC6891B444B06C4E4F7615859AD07297* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4460,7 +4460,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchscreenGestureInputController_Finish
 		return;
 	}
 }
-// Method Definition Index: 28670
+// Method Definition Index: 28673
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchscreenGestureInputController_OnAdded_m2CA75FF51AD73E5B1688CE612EA9E1C4BDB6D883 (TouchscreenGestureInputController_t214270BADC6891B444B06C4E4F7615859AD07297* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -4469,7 +4469,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchscreenGestureInputController_OnAdde
 		return;
 	}
 }
-// Method Definition Index: 28671
+// Method Definition Index: 28674
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchscreenGestureInputController_OnRemoved_m00FCCB7C9721C2F89411C3344EC5608BDBEC4D00 (TouchscreenGestureInputController_t214270BADC6891B444B06C4E4F7615859AD07297* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -4478,7 +4478,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchscreenGestureInputController_OnRemo
 		return;
 	}
 }
-// Method Definition Index: 28672
+// Method Definition Index: 28675
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchscreenGestureInputController_OnUpdate_mD57AE9BD7CF2D13B916D417E5F8753A4B88C7469 (TouchscreenGestureInputController_t214270BADC6891B444B06C4E4F7615859AD07297* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4548,7 +4548,7 @@ IL_0071:
 		return;
 	}
 }
-// Method Definition Index: 28676
+// Method Definition Index: 28679
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TouchscreenGestureInputController_ToString_mAEAAA0F3C6F9C515EABB94ACA1E9A8F7285BF1A8 (TouchscreenGestureInputController_t214270BADC6891B444B06C4E4F7615859AD07297* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4769,7 +4769,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TouchscreenGestureInputController_T
 		return L_104;
 	}
 }
-// Method Definition Index: 28677
+// Method Definition Index: 28680
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchscreenGestureInputController__ctor_m28B655970A2CB0CF7464F00B6A95EA1B50697856 (TouchscreenGestureInputController_t214270BADC6891B444B06C4E4F7615859AD07297* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -4786,7 +4786,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchscreenGestureInputController__ctor_
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 28678
+// Method Definition Index: 28681
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FourCC_tA6CAA4015BC25A7F1053B6C512202D57A9C994ED TouchscreenGestureInputControllerState_get_formatId_mE548730D40228B452275312E9826F532AE09C470 (const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -4797,7 +4797,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FourCC_tA6CAA4015BC25A7F1053B6C512202D57A9C99
 		return L_0;
 	}
 }
-// Method Definition Index: 28679
+// Method Definition Index: 28682
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FourCC_tA6CAA4015BC25A7F1053B6C512202D57A9C994ED TouchscreenGestureInputControllerState_get_format_m32D526DB0822DAEE1258BB4CF15424F89F99D475 (TouchscreenGestureInputControllerState_tF5D1D1364D13FC27E4A4FEF983FB7469528890A3* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -4823,7 +4823,7 @@ IL2CPP_EXTERN_C  FourCC_tA6CAA4015BC25A7F1053B6C512202D57A9C994ED TouchscreenGes
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 28680
+// Method Definition Index: 28683
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchscreenGestureInputLayoutLoader_Initialize_m0F82B70678EE1769438E1339C8EDD69581A5DCAE (const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -4831,7 +4831,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchscreenGestureInputLayoutLoader_Init
 		return;
 	}
 }
-// Method Definition Index: 28681
+// Method Definition Index: 28684
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchscreenGestureInputLayoutLoader__cctor_m5396BB7971158221F0C1BDBBC67CEAF3FADDCE9E (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4870,7 +4870,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchscreenGestureInputLayoutLoader__cct
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 28682
+// Method Definition Index: 28685
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float TouchscreenGestureInputLoader_get_tapDuration_m76767438395B38D37CB0EAD9220A4E74377A5118 (TouchscreenGestureInputLoader_tF97BD028C9C17A52675E7527B87CFE991270D55E* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -4879,7 +4879,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float TouchscreenGestureInputLoader_get_tapDu
 		return L_0;
 	}
 }
-// Method Definition Index: 28683
+// Method Definition Index: 28686
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchscreenGestureInputLoader_set_tapDuration_m8EFA0A42217FA75E222B793888E5B486CBF9914F (TouchscreenGestureInputLoader_tF97BD028C9C17A52675E7527B87CFE991270D55E* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -4889,7 +4889,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchscreenGestureInputLoader_set_tapDur
 		return;
 	}
 }
-// Method Definition Index: 28684
+// Method Definition Index: 28687
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchscreenGestureInputLoader_Awake_mA20C29F614198CDC01561985B1B2FE7683F9FF92 (TouchscreenGestureInputLoader_tF97BD028C9C17A52675E7527B87CFE991270D55E* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -4897,7 +4897,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchscreenGestureInputLoader_Awake_mA20
 		return;
 	}
 }
-// Method Definition Index: 28685
+// Method Definition Index: 28688
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchscreenGestureInputLoader_OnEnable_m57A565E599D89C34FD9DEC1CDF24CDA485248259 (TouchscreenGestureInputLoader_tF97BD028C9C17A52675E7527B87CFE991270D55E* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -4907,7 +4907,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchscreenGestureInputLoader_OnEnable_m
 		return;
 	}
 }
-// Method Definition Index: 28686
+// Method Definition Index: 28689
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchscreenGestureInputLoader_OnDisable_mFF0C46DE7D006D707D24FB25B789A5B1511BCA0E (TouchscreenGestureInputLoader_tF97BD028C9C17A52675E7527B87CFE991270D55E* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -4916,7 +4916,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchscreenGestureInputLoader_OnDisable_
 		return;
 	}
 }
-// Method Definition Index: 28687
+// Method Definition Index: 28690
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchscreenGestureInputLoader_RefreshGestureRecognizersConfiguration_mA7D99AF7945D4265C20C8C4DF395FD26668F2A91 (TouchscreenGestureInputLoader_tF97BD028C9C17A52675E7527B87CFE991270D55E* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -4942,7 +4942,7 @@ IL_001e:
 		return;
 	}
 }
-// Method Definition Index: 28688
+// Method Definition Index: 28691
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchscreenGestureInputLoader_InitializeTouchscreenGestureController_mC21758D5B4BF6580A1E64993F887A405717195F1 (TouchscreenGestureInputLoader_tF97BD028C9C17A52675E7527B87CFE991270D55E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4994,7 +4994,7 @@ IL_0033:
 		return;
 	}
 }
-// Method Definition Index: 28689
+// Method Definition Index: 28692
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchscreenGestureInputLoader_RemoveTouchscreenGestureController_m7BD8383B2F2704BF11681BC35942BE1DEC9B8C4B (TouchscreenGestureInputLoader_tF97BD028C9C17A52675E7527B87CFE991270D55E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5033,7 +5033,7 @@ IL_0020:
 		return;
 	}
 }
-// Method Definition Index: 28690
+// Method Definition Index: 28693
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchscreenGestureInputLoader__ctor_mCA44333A8B84319F3630AA82998BF8AB4D5DCAB4 (TouchscreenGestureInputLoader_tF97BD028C9C17A52675E7527B87CFE991270D55E* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -5051,7 +5051,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchscreenGestureInputLoader__ctor_mCA4
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 28691
+// Method Definition Index: 28694
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IgnoresAccessChecksToAttribute__ctor_mF05DCAEB722D6AB190A771E00DB9DDF9B2B79A09 (IgnoresAccessChecksToAttribute_tC17EC8BF91FC3C1BCA8EB18EA14407A74E38383F* __this, String_t* ___0_p, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -5063,7 +5063,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IgnoresAccessChecksToAttribute__ctor_mF0
 		return;
 	}
 }
-// Method Definition Index: 28692
+// Method Definition Index: 28695
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* IgnoresAccessChecksToAttribute_get_AssemblyName_m46FC7B8ED7F9663104CB4E96D7811CC4F625B27D (IgnoresAccessChecksToAttribute_tC17EC8BF91FC3C1BCA8EB18EA14407A74E38383F* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -5080,7 +5080,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* IgnoresAccessChecksToAttribute_get_
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 28693
+// Method Definition Index: 28696
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U24BurstDirectCallInitializer_Initialize_m243E8EB985B2ABE9809928E9CD49F6A218E5A854 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5102,7 +5102,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U24BurstDirectCallInitializer_Initialize
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Method Definition Index: 42309
+// Method Definition Index: 42312
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Vector2_op_Inequality_mBEA93B5A0E954FEFB863DC61CB209119980EC713_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_lhs, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_rhs, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -5123,7 +5123,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Vector2_op_Inequality_mBEA93
 		return (bool)((((int32_t)((((float)((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_8, L_8)), ((float)il2cpp_codegen_multiply(L_9, L_10))))) < ((float)(9.99999944E-11f)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 	}
 }
-// Method Definition Index: 42119
+// Method Definition Index: 42122
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -5137,7 +5137,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999E
 		return;
 	}
 }
-// Method Definition Index: 42159
+// Method Definition Index: 42162
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -5164,7 +5164,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 		return L_12;
 	}
 }
-// Method Definition Index: 42133
+// Method Definition Index: 42136
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_normalized_m736BBF65D5CDA7A18414370D15B4DFCC1E466F07_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -5174,7 +5174,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 		return L_0;
 	}
 }
-// Method Definition Index: 42190
+// Method Definition Index: 42193
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_LookRotation_mDB2CCA75B8E1AB98104F2A6E1A1EA57D0D1298D7_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_forward, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -5189,7 +5189,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E
 		return L_1;
 	}
 }
-// Method Definition Index: 42279
+// Method Definition Index: 42282
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, float ___0_x, float ___1_y, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -5201,7 +5201,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2__ctor_m9525B79969AFF
 		return;
 	}
 }
-// Method Definition Index: 24277
+// Method Definition Index: 24280
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* XRBaseInteractor_get_attachTransform_mCFB6FC2BA5BEE92C94BD512D77021BE6AC50B8C1_inline (XRBaseInteractor_t4AF6FC9A7611B9417B4A43E11704AFF85B4A0FB4* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -5210,7 +5210,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A
 		return L_0;
 	}
 }
-// Method Definition Index: 42154
+// Method Definition Index: 42157
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_up_m128AF3FDC820BF59D5DE86D973E7DE3F20C3AEBA_inline (const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -5219,7 +5219,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 		return L_0;
 	}
 }
-// Method Definition Index: 42189
+// Method Definition Index: 42192
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_LookRotation_mFB02EDC8F733774DFAC3BEA4B4BB265A228F8307_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_forward, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_upwards, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -5229,7 +5229,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E
 		return L_0;
 	}
 }
-// Method Definition Index: 42176
+// Method Definition Index: 42179
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_Inverse_mD9C060AC626A7B406F4984AC98F8358DC89EF512_inline (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_rotation, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -5239,7 +5239,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E
 		return L_0;
 	}
 }
-// Method Definition Index: 42193
+// Method Definition Index: 42196
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_op_Multiply_mCB375FCCC12A2EC8F9EB824A1BFB4453B58C2012_inline (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_lhs, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_rhs, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -5319,7 +5319,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E
 		return L_64;
 	}
 }
-// Method Definition Index: 42311
+// Method Definition Index: 42314
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector2_op_Implicit_m6D9CABB2C791A192867D7A4559D132BE86DD3EB7_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_v, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -5338,7 +5338,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 		return L_4;
 	}
 }
-// Method Definition Index: 42312
+// Method Definition Index: 42315
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline (const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -5347,7 +5347,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2D
 		return L_0;
 	}
 }
-// Method Definition Index: 28628
+// Method Definition Index: 28631
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchscreenGestureInputController_set_tapStartPosition_mF5EFF9982A9BA55A43505AB1BEB3D3A76D2B0EC7_inline (TouchscreenGestureInputController_t214270BADC6891B444B06C4E4F7615859AD07297* __this, Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* ___0_value, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -5358,7 +5358,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchscreenGestureInputContr
 		return;
 	}
 }
-// Method Definition Index: 28630
+// Method Definition Index: 28633
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchscreenGestureInputController_set_dragStartPosition_m741C4FD2838EA11FEB9D12D9D619FE8957AC0FCE_inline (TouchscreenGestureInputController_t214270BADC6891B444B06C4E4F7615859AD07297* __this, Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* ___0_value, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -5369,7 +5369,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchscreenGestureInputContr
 		return;
 	}
 }
-// Method Definition Index: 28632
+// Method Definition Index: 28635
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchscreenGestureInputController_set_dragCurrentPosition_m7FE3E0467AA9A59C957F365D14A95E0D69EC0170_inline (TouchscreenGestureInputController_t214270BADC6891B444B06C4E4F7615859AD07297* __this, Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* ___0_value, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -5380,7 +5380,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchscreenGestureInputContr
 		return;
 	}
 }
-// Method Definition Index: 28634
+// Method Definition Index: 28637
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchscreenGestureInputController_set_dragDelta_m1170CA7FBEB956277353AD37C012498914A4F27C_inline (TouchscreenGestureInputController_t214270BADC6891B444B06C4E4F7615859AD07297* __this, Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* ___0_value, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -5391,7 +5391,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchscreenGestureInputContr
 		return;
 	}
 }
-// Method Definition Index: 28636
+// Method Definition Index: 28639
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchscreenGestureInputController_set_pinchStartPosition1_m67A7F36DE0AE0FA3658637577E9068BE8DB55928_inline (TouchscreenGestureInputController_t214270BADC6891B444B06C4E4F7615859AD07297* __this, Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* ___0_value, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -5402,7 +5402,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchscreenGestureInputContr
 		return;
 	}
 }
-// Method Definition Index: 28638
+// Method Definition Index: 28641
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchscreenGestureInputController_set_pinchStartPosition2_m901420CFDB62EBFCD03F85C735A1451A9008453A_inline (TouchscreenGestureInputController_t214270BADC6891B444B06C4E4F7615859AD07297* __this, Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* ___0_value, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -5413,7 +5413,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchscreenGestureInputContr
 		return;
 	}
 }
-// Method Definition Index: 28640
+// Method Definition Index: 28643
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchscreenGestureInputController_set_pinchGap_m1C9038BABA787CEDAFF5D7A2E824D75C6FDDC2B7_inline (TouchscreenGestureInputController_t214270BADC6891B444B06C4E4F7615859AD07297* __this, AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* ___0_value, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -5424,7 +5424,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchscreenGestureInputContr
 		return;
 	}
 }
-// Method Definition Index: 28642
+// Method Definition Index: 28645
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchscreenGestureInputController_set_pinchGapDelta_m1664AC5C87A35133E730F15699790B3C25F1D519_inline (TouchscreenGestureInputController_t214270BADC6891B444B06C4E4F7615859AD07297* __this, AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* ___0_value, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -5435,7 +5435,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchscreenGestureInputContr
 		return;
 	}
 }
-// Method Definition Index: 28644
+// Method Definition Index: 28647
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchscreenGestureInputController_set_twistStartPosition1_mAF6F92587C15BB6503734B6E3263E68F8755A5C8_inline (TouchscreenGestureInputController_t214270BADC6891B444B06C4E4F7615859AD07297* __this, Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* ___0_value, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -5446,7 +5446,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchscreenGestureInputContr
 		return;
 	}
 }
-// Method Definition Index: 28646
+// Method Definition Index: 28649
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchscreenGestureInputController_set_twistStartPosition2_mE2A561F0F858F519DF61E0C5ECEFEFD9F8B7DF1A_inline (TouchscreenGestureInputController_t214270BADC6891B444B06C4E4F7615859AD07297* __this, Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* ___0_value, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -5457,7 +5457,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchscreenGestureInputContr
 		return;
 	}
 }
-// Method Definition Index: 28648
+// Method Definition Index: 28651
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchscreenGestureInputController_set_twistDeltaRotation_mFD885ACDFDBD2C96B6BB7640728C00E58EA0719D_inline (TouchscreenGestureInputController_t214270BADC6891B444B06C4E4F7615859AD07297* __this, AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* ___0_value, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -5468,7 +5468,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchscreenGestureInputContr
 		return;
 	}
 }
-// Method Definition Index: 28650
+// Method Definition Index: 28653
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchscreenGestureInputController_set_twoFingerDragStartPosition1_mB3BA3EA17EC3FC04B2C859D8A9E99385616B4471_inline (TouchscreenGestureInputController_t214270BADC6891B444B06C4E4F7615859AD07297* __this, Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* ___0_value, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -5479,7 +5479,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchscreenGestureInputContr
 		return;
 	}
 }
-// Method Definition Index: 28652
+// Method Definition Index: 28655
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchscreenGestureInputController_set_twoFingerDragStartPosition2_m922E749258E6FC2F616282DAC6B537E8DEC32867_inline (TouchscreenGestureInputController_t214270BADC6891B444B06C4E4F7615859AD07297* __this, Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* ___0_value, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -5490,7 +5490,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchscreenGestureInputContr
 		return;
 	}
 }
-// Method Definition Index: 28654
+// Method Definition Index: 28657
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchscreenGestureInputController_set_twoFingerDragCurrentPosition_mF094A362D6B7B46418328F8594C2B03F74B65301_inline (TouchscreenGestureInputController_t214270BADC6891B444B06C4E4F7615859AD07297* __this, Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* ___0_value, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -5501,7 +5501,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchscreenGestureInputContr
 		return;
 	}
 }
-// Method Definition Index: 28656
+// Method Definition Index: 28659
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchscreenGestureInputController_set_twoFingerDragDelta_m0DB38FE5C25A8A0F29A9156BE996A4B7ADAAF90E_inline (TouchscreenGestureInputController_t214270BADC6891B444B06C4E4F7615859AD07297* __this, Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* ___0_value, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -5512,7 +5512,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchscreenGestureInputContr
 		return;
 	}
 }
-// Method Definition Index: 28658
+// Method Definition Index: 28661
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchscreenGestureInputController_set_fingerCount_m78FB1E1A10E70E91103AB66CB221ABFC55ABB010_inline (TouchscreenGestureInputController_t214270BADC6891B444B06C4E4F7615859AD07297* __this, IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* ___0_value, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -5523,7 +5523,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchscreenGestureInputContr
 		return;
 	}
 }
-// Method Definition Index: 28660
+// Method Definition Index: 28663
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchscreenGestureInputController_set_tapGestureRecognizer_m442CE6424C69F5ECDE1F330068F9C438A4368706_inline (TouchscreenGestureInputController_t214270BADC6891B444B06C4E4F7615859AD07297* __this, TapGestureRecognizer_t6B221668F538CDF22D6FEC88AA3E2ED483A6DD47* ___0_value, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -5534,7 +5534,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchscreenGestureInputContr
 		return;
 	}
 }
-// Method Definition Index: 28659
+// Method Definition Index: 28662
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR TapGestureRecognizer_t6B221668F538CDF22D6FEC88AA3E2ED483A6DD47* TouchscreenGestureInputController_get_tapGestureRecognizer_mDF6988E50ADA646E787CE7EB11C77F54F38E4A7B_inline (TouchscreenGestureInputController_t214270BADC6891B444B06C4E4F7615859AD07297* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -5543,7 +5543,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR TapGestureRecognizer_t6B221668F53
 		return L_0;
 	}
 }
-// Method Definition Index: 28662
+// Method Definition Index: 28665
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchscreenGestureInputController_set_dragGestureRecognizer_m9D0FB6F21F72F6C28C249634C50C1B4D412AF56D_inline (TouchscreenGestureInputController_t214270BADC6891B444B06C4E4F7615859AD07297* __this, DragGestureRecognizer_t4E0FDDB00687AF441143447A26E3C62401A793F5* ___0_value, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -5554,7 +5554,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchscreenGestureInputContr
 		return;
 	}
 }
-// Method Definition Index: 28661
+// Method Definition Index: 28664
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DragGestureRecognizer_t4E0FDDB00687AF441143447A26E3C62401A793F5* TouchscreenGestureInputController_get_dragGestureRecognizer_mACD3EDD5E0770DC7D56FB7002EDD929126707177_inline (TouchscreenGestureInputController_t214270BADC6891B444B06C4E4F7615859AD07297* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -5563,7 +5563,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DragGestureRecognizer_t4E0FDDB006
 		return L_0;
 	}
 }
-// Method Definition Index: 28664
+// Method Definition Index: 28667
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchscreenGestureInputController_set_pinchGestureRecognizer_m293B38604CAF861DE6CD6635E91E3305E374FFF5_inline (TouchscreenGestureInputController_t214270BADC6891B444B06C4E4F7615859AD07297* __this, PinchGestureRecognizer_tE572B5EFA291C87001D3169F7C684C3723122501* ___0_value, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -5574,7 +5574,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchscreenGestureInputContr
 		return;
 	}
 }
-// Method Definition Index: 28663
+// Method Definition Index: 28666
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR PinchGestureRecognizer_tE572B5EFA291C87001D3169F7C684C3723122501* TouchscreenGestureInputController_get_pinchGestureRecognizer_m44F31740B5BC3519C17E055C5DC2BE2377B67555_inline (TouchscreenGestureInputController_t214270BADC6891B444B06C4E4F7615859AD07297* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -5583,7 +5583,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR PinchGestureRecognizer_tE572B5EFA
 		return L_0;
 	}
 }
-// Method Definition Index: 28666
+// Method Definition Index: 28669
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchscreenGestureInputController_set_twistGestureRecognizer_m67D5E0FCD736C593DDA0D8C6A1A7CA53BA4518F7_inline (TouchscreenGestureInputController_t214270BADC6891B444B06C4E4F7615859AD07297* __this, TwistGestureRecognizer_tBC24BC65279B1C2E58B9D139A44CDC79F243BE46* ___0_value, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -5594,7 +5594,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchscreenGestureInputContr
 		return;
 	}
 }
-// Method Definition Index: 28665
+// Method Definition Index: 28668
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR TwistGestureRecognizer_tBC24BC65279B1C2E58B9D139A44CDC79F243BE46* TouchscreenGestureInputController_get_twistGestureRecognizer_m377D71359BF1A48435A656AAD1DABC069470556C_inline (TouchscreenGestureInputController_t214270BADC6891B444B06C4E4F7615859AD07297* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -5603,7 +5603,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR TwistGestureRecognizer_tBC24BC652
 		return L_0;
 	}
 }
-// Method Definition Index: 28668
+// Method Definition Index: 28671
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchscreenGestureInputController_set_twoFingerDragGestureRecognizer_m75F63539F65DC705D68A62D7B5CFB5AB2E678234_inline (TouchscreenGestureInputController_t214270BADC6891B444B06C4E4F7615859AD07297* __this, TwoFingerDragGestureRecognizer_t86C15F291E58ADC2F6F459DECEE8C6BC93687542* ___0_value, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -5614,7 +5614,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchscreenGestureInputContr
 		return;
 	}
 }
-// Method Definition Index: 28667
+// Method Definition Index: 28670
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR TwoFingerDragGestureRecognizer_t86C15F291E58ADC2F6F459DECEE8C6BC93687542* TouchscreenGestureInputController_get_twoFingerDragGestureRecognizer_m7BBE494925741CB56FD3AA17B443EA1FE0D39E85_inline (TouchscreenGestureInputController_t214270BADC6891B444B06C4E4F7615859AD07297* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -5623,7 +5623,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR TwoFingerDragGestureRecognizer_t8
 		return L_0;
 	}
 }
-// Method Definition Index: 28627
+// Method Definition Index: 28630
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* TouchscreenGestureInputController_get_tapStartPosition_mEA02834195CBAFD5C6ABBF8D7E68AB3D8765FF3B_inline (TouchscreenGestureInputController_t214270BADC6891B444B06C4E4F7615859AD07297* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -5632,7 +5632,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671A
 		return L_0;
 	}
 }
-// Method Definition Index: 28629
+// Method Definition Index: 28632
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* TouchscreenGestureInputController_get_dragStartPosition_m0AA9F1D3F9E2E26168700F4E1C90D8A65FF413D6_inline (TouchscreenGestureInputController_t214270BADC6891B444B06C4E4F7615859AD07297* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -5641,7 +5641,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671A
 		return L_0;
 	}
 }
-// Method Definition Index: 28631
+// Method Definition Index: 28634
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* TouchscreenGestureInputController_get_dragCurrentPosition_m460E3712A80B0137A2ABFB9B383C97CDCAA63EC8_inline (TouchscreenGestureInputController_t214270BADC6891B444B06C4E4F7615859AD07297* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -5650,7 +5650,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671A
 		return L_0;
 	}
 }
-// Method Definition Index: 28633
+// Method Definition Index: 28636
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* TouchscreenGestureInputController_get_dragDelta_mE7A3424A10E8AAC4CDF047CA059D8364FC66CC95_inline (TouchscreenGestureInputController_t214270BADC6891B444B06C4E4F7615859AD07297* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -5659,7 +5659,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671A
 		return L_0;
 	}
 }
-// Method Definition Index: 28635
+// Method Definition Index: 28638
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* TouchscreenGestureInputController_get_pinchStartPosition1_m58D478EF6DCE3AD1EE98F0B93CB11C92C2EDC52F_inline (TouchscreenGestureInputController_t214270BADC6891B444B06C4E4F7615859AD07297* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -5668,7 +5668,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671A
 		return L_0;
 	}
 }
-// Method Definition Index: 28637
+// Method Definition Index: 28640
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* TouchscreenGestureInputController_get_pinchStartPosition2_m5554FA148E0549A853FB90346DEA61D4737AD793_inline (TouchscreenGestureInputController_t214270BADC6891B444B06C4E4F7615859AD07297* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -5677,7 +5677,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671A
 		return L_0;
 	}
 }
-// Method Definition Index: 28639
+// Method Definition Index: 28642
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* TouchscreenGestureInputController_get_pinchGap_m257F3DFB0D012E2E2BB486468866FF70194C5F87_inline (TouchscreenGestureInputController_t214270BADC6891B444B06C4E4F7615859AD07297* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -5686,7 +5686,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C
 		return L_0;
 	}
 }
-// Method Definition Index: 28641
+// Method Definition Index: 28644
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* TouchscreenGestureInputController_get_pinchGapDelta_mE29FA95CD3AD966D7E9AD87391FB52A2DC772829_inline (TouchscreenGestureInputController_t214270BADC6891B444B06C4E4F7615859AD07297* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -5695,7 +5695,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C
 		return L_0;
 	}
 }
-// Method Definition Index: 28643
+// Method Definition Index: 28646
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* TouchscreenGestureInputController_get_twistStartPosition1_m79FC0073A3DE9C655EDC533EDA2560FD2AF69E5E_inline (TouchscreenGestureInputController_t214270BADC6891B444B06C4E4F7615859AD07297* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -5704,7 +5704,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671A
 		return L_0;
 	}
 }
-// Method Definition Index: 28645
+// Method Definition Index: 28648
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* TouchscreenGestureInputController_get_twistStartPosition2_mF5EF18B85E07E22EF7DFF572E0A11A099917EE9C_inline (TouchscreenGestureInputController_t214270BADC6891B444B06C4E4F7615859AD07297* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -5713,7 +5713,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671A
 		return L_0;
 	}
 }
-// Method Definition Index: 28647
+// Method Definition Index: 28650
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* TouchscreenGestureInputController_get_twistDeltaRotation_mB915664BA2D9D7814DDEB340DDA742C21FC71627_inline (TouchscreenGestureInputController_t214270BADC6891B444B06C4E4F7615859AD07297* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -5722,7 +5722,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C
 		return L_0;
 	}
 }
-// Method Definition Index: 28649
+// Method Definition Index: 28652
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* TouchscreenGestureInputController_get_twoFingerDragStartPosition1_mBF016BC4D43837CDF80A1C16B19295026C085AB7_inline (TouchscreenGestureInputController_t214270BADC6891B444B06C4E4F7615859AD07297* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -5731,7 +5731,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671A
 		return L_0;
 	}
 }
-// Method Definition Index: 28651
+// Method Definition Index: 28654
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* TouchscreenGestureInputController_get_twoFingerDragStartPosition2_mAAAAE4C1A2FD45449072761F5C16F17FACBE09A2_inline (TouchscreenGestureInputController_t214270BADC6891B444B06C4E4F7615859AD07297* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -5740,7 +5740,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671A
 		return L_0;
 	}
 }
-// Method Definition Index: 28653
+// Method Definition Index: 28656
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* TouchscreenGestureInputController_get_twoFingerDragCurrentPosition_m084820CBE76304292914AB658CBC38108C9106B5_inline (TouchscreenGestureInputController_t214270BADC6891B444B06C4E4F7615859AD07297* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -5749,7 +5749,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671A
 		return L_0;
 	}
 }
-// Method Definition Index: 28655
+// Method Definition Index: 28658
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* TouchscreenGestureInputController_get_twoFingerDragDelta_m355DF874DF205C43E5CA01A34401B792FB6B97FD_inline (TouchscreenGestureInputController_t214270BADC6891B444B06C4E4F7615859AD07297* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -5758,7 +5758,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671A
 		return L_0;
 	}
 }
-// Method Definition Index: 28252
+// Method Definition Index: 28255
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TapGestureRecognizer_set_durationSeconds_mE1DD781352A99A938D245BA4A446B6E7FF646A30_inline (TapGestureRecognizer_t6B221668F538CDF22D6FEC88AA3E2ED483A6DD47* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -5768,7 +5768,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TapGestureRecognizer_set_dur
 		return;
 	}
 }
-// Method Definition Index: 8988
+// Method Definition Index: 8991
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_mD2ED26ACAF3BAF386FFEA83893BA51DB9FD8BA30_fshared_inline (List_1_tDBA89B0E21BAC58CFBD3C1F76E4668E3B562761A* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -5777,7 +5777,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_mD2ED26A
 		return L_0;
 	}
 }
-// Method Definition Index: 42131
+// Method Definition Index: 42134
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_Normalize_m1DE89849FE2019B6AA0031306896F3B800849399_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___0_value, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -5819,7 +5819,7 @@ IL_0015:
 		return L_13;
 	}
 }
-// Method Definition Index: 42143
+// Method Definition Index: 42146
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_get_magnitude_mF0D6017E90B345F1F52D1CC564C640F1A847AF2D_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
